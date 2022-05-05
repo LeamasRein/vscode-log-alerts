@@ -6,6 +6,10 @@
 	"engines": {
 		"vscode": "^1.66.0"
 	},
+	"publisher": "rein",
+	"repository": {
+		"url": "https://github.com/LeamasRein/vscode-log-alerts"
+	},
 	"categories": [
 		"Other"
 	],
@@ -19,8 +23,8 @@
 				"id": "Configuration",
 				"title": "Configuration",
 				"properties": {
-					"conf.command": {"type": "string"},
-					"conf.pattern": {"type": "string"}
+					"logAlerts.command": {"type": "string"},
+					"logAlerts.pattern": {"type": "string"}
 				}
 			}
 		],
