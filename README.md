@@ -7,6 +7,7 @@ Example:
 
 
 `logAlerts.pattern` - specify a pattern for parsing logs.
+
 Example:
 > stderr: \\"(.+?)\\" while
 
